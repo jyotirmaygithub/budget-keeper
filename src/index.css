@@ -1,13 +1,67 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --universal-width: 100%;
+  --universal-height: 100%;
+}
+.universal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.universal-flex-dir {
+  flex-direction: column;
+}
+.universal-jus {
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0px;
+}
+.main-budget-cal {
+  height: 50vh;
+  width: 25vw;
+  line-height: 3;
+  /* border: 1px ; */
+}
+.budget-box {
+  width: var(--universal-width);
+}
+.beauty {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  width: 170px;
+}
+.description {
+  width: 30vw;
+}
+.button {
+  border-bottom: none;
+  border: 1px solid black;
+  background: none;
+  padding: 8px;
+  width: 20vw;
+}
+.image-box{
+  /* gap: 5%; */
+  margin: 15px;
+  justify-content: space-between;
+}
+.categoray {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  clip-path: circle(50% at 50% 50%);
+}
+.scroll-bar {
+  margin: 15px 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 30vw;
+  height: 25vh;
 }
