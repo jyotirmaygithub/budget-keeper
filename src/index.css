@@ -22,6 +22,9 @@
   width: 100%;
   margin: 10px 0px;
 }
+.App{
+  justify-content: space-evenly;
+}
 .main-budget-cal {
   height: 50vh;
   width: 25vw;
@@ -31,11 +34,13 @@
 .budget-box {
   width: var(--universal-width);
 }
+
 .beauty {
   border: none;
   outline: none;
   border-bottom: 1px solid black;
   width: 170px;
+  cursor: pointer;
 }
 .description {
   width: 30vw;
