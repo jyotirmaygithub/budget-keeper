@@ -6,6 +6,7 @@
 }
 
 :root {
+  --grey-color : #BFC9CA;
   --universal-width: 100%;
   --universal-height: 100%;
 }
@@ -40,7 +41,14 @@
   outline: none;
   border-bottom: 1px solid black;
   width: 170px;
+  font-size: 15px;
+    font-weight: lighter;
+}
+select,button{
   cursor: pointer;
+}
+button:hover{
+  background-color:var(--grey-color);
 }
 .description {
   width: 30vw;
@@ -69,4 +77,14 @@
   overflow-x: hidden;
   width: 30vw;
   height: 25vh;
+}
+.remover{
+  cursor: pointer;
+}
+.no-data{
+  text-align: center;
+  padding: 40px 0px;
+}
+.expense-des{
+  text-align: center;
 }
