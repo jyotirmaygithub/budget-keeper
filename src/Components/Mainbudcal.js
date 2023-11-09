@@ -86,7 +86,7 @@ export default function Mainbudcal() {
                 onChange={(e) => settype(e.target.value)}
                 value={type}
               >
-                {/* <option value="select a option">Select a option</option> */}
+                <option value="select a option">Select a option</option>
                 <option value="income">Income</option>
                 <option value="expense">Expense</option>
               </select>
